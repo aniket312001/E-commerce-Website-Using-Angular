@@ -1,0 +1,216 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "shirt",
+      "category_id": 2,
+      "decriptions": "here is decription",
+      "price": 200,
+      "is_available": true,
+      "rating": 3,
+      "review": 154,
+      "vendor_name": "abc shop",
+      "warenty": 5,
+      "img": "http://localhost:4200/assets/s1.jfif"
+    },
+    {
+      "id": 2,
+      "name": "phone",
+      "category_id": 1,
+      "decriptions": "here is decription",
+      "price": 12200,
+      "is_available": true,
+      "rating": 4,
+      "review": 1354,
+      "vendor_name": "samsung shop",
+      "warenty": 4,
+      "img": "http://localhost:4200/assets/phone.jfif"
+    },
+    {
+      "id": 3,
+      "name": "ball",
+      "category_id": 4,
+      "decriptions": "here is decription",
+      "price": 500,
+      "is_available": true,
+      "rating": 4.4,
+      "review": 14,
+      "vendor_name": "abc shop",
+      "warenty": 1,
+      "img": "http://localhost:4200/assets/ball.png"
+    },
+    {
+      "id": 4,
+      "name": "lahega",
+      "category_id": 3,
+      "decriptions": "here is decription",
+      "price": 1500,
+      "is_available": true,
+      "rating": 5,
+      "review": 1424,
+      "vendor_name": "raymond",
+      "warenty": 1.5,
+      "img": "http://localhost:4200/assets/lahega.jfif"
+    },
+    {
+      "id": 6,
+      "name": "table",
+      "category_id": "5",
+      "decriptions": "this is single round flowerpot table ",
+      "price": 1000,
+      "is_available": "true",
+      "rating": 3,
+      "review": 123,
+      "vendor_name": "indain furniture",
+      "warenty": 2,
+      "img": "https://media.istockphoto.com/photos/wooden-round-table-picture-id900257448?k=20&m=900257448&s=612x612&w=0&h=AybdzILTJh3KAX8J2VHyZtOcsNJlgyFEmCyUXNxxNnU="
+    },
+    {
+      "id": 7,
+      "name": "lamp",
+      "category_id": "1",
+      "decriptions": "It is a study lamp where we can study in night ",
+      "price": 300,
+      "is_available": "true",
+      "rating": 3,
+      "review": 12,
+      "vendor_name": "Light Shop Pune",
+      "warenty": 1,
+      "img": "https://m.media-amazon.com/images/I/61URFUqEY4L._SX342_.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Shoes",
+      "category_id": "2",
+      "decriptions": "Puma shoes form Germany",
+      "price": 4000,
+      "is_available": "true",
+      "rating": 4,
+      "review": 5005,
+      "vendor_name": "Gruri in Germany",
+      "warenty": 2,
+      "img": "https://rukminim1.flixcart.com/image/332/398/krz97rk0/shoe/r/q/r/10-5-376105-10-5-puma-high-risk-red-intense-red-original-imag5nekuy7rkeb4.jpeg?q=50"
+    },
+    {
+      "id": 9,
+      "name": "Doll",
+      "category_id": "4",
+      "decriptions": "Best Doll in the world",
+      "price": 600,
+      "is_available": "true",
+      "rating": 5,
+      "review": 3000,
+      "vendor_name": "Doll-house",
+      "warenty": 2,
+      "img": "https://i.pinimg.com/originals/a9/5f/c0/a95fc0264ce57314a3c9f710d0d5a454.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronic"
+    },
+    {
+      "id": 2,
+      "name": "men"
+    },
+    {
+      "id": 3,
+      "name": "women"
+    },
+    {
+      "id": 4,
+      "name": "kids"
+    },
+    {
+      "id": 5,
+      "name": "home and Furniture"
+    },
+    {
+      "id": 6,
+      "name": "Others"
+    }
+  ],
+  "cart": [
+    {
+      "id": 11,
+      "product_id": 2,
+      "quantity": 1
+    },
+    {
+      "id": 12,
+      "product_id": 3,
+      "quantity": 1
+    },
+    {
+      "id": 13,
+      "product_id": 4,
+      "quantity": 1
+    },
+    {
+      "id": 14,
+      "product_id": 3,
+      "quantity": 1
+    },
+    {
+      "id": 15,
+      "product_id": 3,
+      "quantity": 1
+    },
+    {
+      "id": 16,
+      "product_id": 1,
+      "quantity": 1
+    },
+    {
+      "id": 17,
+      "product_id": 1,
+      "quantity": 1
+    },
+    {
+      "id": 18,
+      "product_id": 1,
+      "quantity": 1
+    },
+    {
+      "id": 19,
+      "product_id": 2,
+      "quantity": 1
+    },
+    {
+      "id": 20,
+      "product_id": 7,
+      "quantity": 2
+    },
+    {
+      "id": 21,
+      "product_id": 3,
+      "quantity": 1
+    },
+    {
+      "id": 22,
+      "product_id": 7,
+      "quantity": 1
+    },
+    {
+      "id": 23,
+      "product_id": 1,
+      "quantity": 1
+    },
+    {
+      "id": 24,
+      "product_id": 5,
+      "quantity": 144
+    },
+    {
+      "id": 25,
+      "product_id": 5,
+      "quantity": 1
+    },
+    {
+      "id": 26,
+      "product_id": 8,
+      "quantity": 1
+    }
+  ]
+}

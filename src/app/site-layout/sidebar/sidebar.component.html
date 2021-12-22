@@ -1,0 +1,6 @@
+<h2>E-shop</h2>
+<div class="list-group" *ngFor="let data of categoryData">
+    <a [routerLink]="['products','list-product',data.id]" class="list-group-item">{{data.name}}</a>
+    
+    
+</div>

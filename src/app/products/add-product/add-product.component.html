@@ -1,0 +1,84 @@
+<div class="container">
+
+  <h2 class="bg-light mb-2 text-center" style="background-color: lavender !important">Add Product</h2>
+  
+  <form class="row g-3" [formGroup]="formValue" (ngSubmit)="onSubmit()">
+    <div class="col-md-4">
+      <label for="validationDefault01" class="form-label">name</label>
+    <input type="text" class="form-control" id="validationDefault01" value="Mark" required  formControlName="name">
+  </div>
+  
+  <div class="col-md-4">
+    <label for="validationDefault02" class="form-label">Description</label>
+    <input type="text" class="form-control" id="validationDefault02" value="Otto" required formControlName="decriptions">
+  </div>
+  
+  <div class="col-md-4">
+    <label for="validationDefault02" class="form-label">Price</label>
+    <input type="number" class="form-control" id="validationDefault02" value="Otto" required formControlName="price">
+  </div>
+  
+  <div class="col-md-4">
+    <label for="validationDefault02" class="form-label">Rating</label>
+    <input type="number" class="form-control" id="validationDefault02" placeholder="0 to 5" required formControlName="rating"> 
+  </div>
+  
+  <div class="col-md-4">
+    <label for="validationDefault02" class="form-label">Review</label>
+    <input type="number" class="form-control" id="validationDefault02" value="Otto" required formControlName="review">
+  </div>
+  
+  <div class="col-md-4">
+    <label for="validationDefault02" class="form-label">Vendor_Name</label>
+    <input type="text" class="form-control" id="validationDefault02" value="shop" required formControlName="vendor_name">
+  </div>
+  
+  <div class="col-md-4">
+    <label for="validationDefault02" class="form-label">Warenty</label>
+    <input type="number" class="form-control" id="validationDefault02" value="shop" required formControlName="warenty">
+  </div>
+
+  
+  
+  
+  <div class="col-md-3">
+    <label for="validationDefault04" class="form-label">Categories</label>
+    <select class="form-select" id="validationDefault04" required formControlName="category_id">
+      <option selected disabled value="">Choose...</option>
+      <option value=1>Electronic</option>
+      <option value=2>Men</option>
+      <option value=3>Women</option>
+      <option value=4>Kids</option>
+      <option value=5>Home & Furniture</option>
+      <option value=6>Others</option>
+    </select>
+  </div>
+  <div class="col-md-3">
+    <label for="validationDefault04" class="form-label">IsAvailable</label>
+    <select class="form-select" id="validationDefault04" required formControlName="is_available">
+      <option selected disabled value="">Choose...</option>
+      <option value="true">yes</option>
+      <option value="false">No</option>
+      
+    </select>
+  </div>
+  
+  <div class="col-md-3">
+    <label for="validationDefault05" class="form-label">Image</label>
+    <input type="text" class="form-control" id="validationDefault05" formControlName="img">
+  </div>
+  
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+      <label class="form-check-label" for="invalidCheck2">
+        Agree to terms and conditions
+      </label>
+    </div>
+  </div>
+  
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit" [disabled]="!formValue.valid" >Submit form</button>
+  </div>
+</form>
+</div>

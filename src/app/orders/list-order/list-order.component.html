@@ -1,0 +1,37 @@
+<h2 class="bg-light mb-2 text-center">Your Cart</h2>
+
+<table class="table mt-4">
+    <thead>
+        <tr>
+            <th scope="col">Product ID</th>
+            <th scope="col">Product</th>
+            <th scope="col">Price</th>
+            <th scope="col">Quality</th>
+            <th scope="col">Total</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <ng-container *ngFor="let c of myCartData">
+
+            <ng-container *ngFor="let data of myProductData">
+                <tr *ngIf="c.product_id == data.id">
+                    <td>{{data.id}}</td>
+                    <td>{{data.name}}</td>
+                    
+                    <td>{{data.price}}</td>
+                    <td>{{c.quantity}}</td>
+                    <td>{{data.price * c.quantity}}</td>
+                    <td> <button class="btn btn-danger" (click)="deleteRow(c.id)">X</button></td>
+                    
+                </tr>
+            </ng-container>
+        </ng-container>
+           <!--  
+            <td>
+                <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal" (click)="onEditResto(data)">Edit</button>
+                
+            </td>
+        </tr> -->
+    </tbody>
+</table>
